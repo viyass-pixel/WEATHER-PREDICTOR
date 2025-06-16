@@ -1,0 +1,64 @@
+/* General styles */
+body {
+    background-color: #0d1117;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Streamlit Main Content */
+.stApp {
+    background-color: #0d1117;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Input Field Styling */
+input {
+    background-color: #161b22 !important;
+    color: white !important;
+    border-radius: 10px;
+    border: 1px solid #30363d !important;
+    padding: 10px;
+}
+
+/* Button Styling */
+button {
+    background: linear-gradient(90deg, #ff758c 0%, #ff7eb3 100%);
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff7eb3 0%, #ff758c 100%);
+    transform: scale(1.02);
+}
+
+/* Sliders */
+div[data-baseweb="slider"] {
+    background-color: #161b22 !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Custom Icons */
+.stMarkdown {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Fix padding for elements */
+.stTextInput, .stButton, .stSlider {
+    margin-bottom: 10px;
+}
